@@ -10,10 +10,6 @@ I did not write this for other people to use. Heck, I don't even claim it's good
 
 Should only have to change two files.
 
-After you do the steps below, install whatever packages you're missing. I tried using poetry to capture the requirements but honeslty never used it before. It doesn't use that much stuff. Just `numpy` and even that you will only need if you want to run the checks.
-
-Then just run `main.py`.
-
 ### Secrets.py
 
 Copy `.secrets.py` into `secrets.py`.
@@ -28,6 +24,18 @@ https://myaccount.google.com/apppasswords
 Copy `.people.py` into `people.py`.
 
 Add your people and include them in the `PEOPLE` variable.
+
+### Install dependencies
+
+```bash
+poetry install
+```
+
+### Run
+
+```bash
+python3 main.py
+```
 
 ## Testing
 
