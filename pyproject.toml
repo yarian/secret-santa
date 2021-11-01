@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "secret-santa"
+version = "0.1.0"
+description = "Scripts to help you randomly generate secret santa pairs and send out an email."
+authors = ["Yarian Gomez <yarianyg@gmail.com>"]
+license = "Do Whatever You Want"
+
+[tool.poetry.dependencies]
+python = ">=3.9.7,<3.11"
+tabulate = "^0.8.9"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
